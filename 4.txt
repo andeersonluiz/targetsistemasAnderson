@@ -1,0 +1,39 @@
+
+
+        	
+---------------------------------
+|           Telefone            |
+|                               |
+|idTelefone:number (PK)         |
+|numeroTelefone: number         |
+|tipoTelefone: VARCHAR          |
+|idCliente: Cliente(FK)         |
+|                               |
+---------------------------------
+   	  |0..*
+	  |
+          |
+	  |1
+------------------------
+|       Cliente        |
+|                      |
+|codigo:number (PK)    |
+|razaoSocial: VARCHAR  |
+|idEstado: Estado (FK) |                  
+|                      |
+------------------------
+   	  |1..*
+	  |
+          |
+	  |1
+-------------------------------
+|           Estado            |
+|                             |
+|idEstado: number (PK)        |
+|nomeEstado: VARCHAR          |
+|codigoEstado: VARCHAR        |
+|                             |
+-------------------------------
+
+BUSCA SQL: SELECT c.codigo,c.razaoSocial, t.numeroTelefone from Cliente c JOIN Telefone t ON t.idCliente == c.codigo JOIN Estado e ON e.idEstado ==c.idEstado WHERE e.nomeEstado =='SP'
+
