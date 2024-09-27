@@ -14,12 +14,11 @@ Como foi usado de referencia, o carro parte de 0, logo:
 
 C0 = 0 + 90t
 
-e o Caminhão como parte de direção contrária referente ao automovel sua velocidade é negativa e
-o ponto de partida é 125km(a distancia final)
+E o Caminhão, como parte de direção contrária referente ao automovel sua velocidade é negativa e o ponto de partida é 125km(a distancia final)
 
 C1 = 125 - 80t
 
-Para descobrir onde se encontram é necessário igualar a função horaria dos dois. Logo:
+Para descobrir onde se encontram é necessário igualar a função horária dos dois. Logo:
 
 C0=C1
 90t = 125-80t
@@ -33,11 +32,8 @@ C0 = 90 * 0.985 = 88.65km
 
 C1 = 80×0.735 = 58.8 km
 
-Assim, quando ambos se encontrarem, o Carro já andou 88.65km e o caminhão 58.8km. Como
-o carro partiu de Riberão Preto, a sua distancia é 88.65km. Já para o Caminhão a distancia é calculada
-através da diferença da distancia total, pois ele partiu de Barretos:
+Assim, quando ambos se encontrarem, o Carro já andou 88.65km e o caminhão 58.8km. Como o carro partiu de Riberão Preto, a sua distancia é 88.65km. Já para o Caminhão a distancia é calculada através da diferença da distancia total, pois ele partiu de Barretos:
 
 125-58.8 = 66.2km 
 
-Assim, o caminhão está mais proximo de Riberão Preto que o Carro quando se cruzam. O carro estará a 88.65km e Riberão preto equanto o 
-Caminhão estará a 66.2km
+Assim, o caminhão está mais proximo de Riberão Preto que o Carro quando se cruzam. O carro estará a 88.65km e Riberão preto equanto o Caminhão estará a 66.2km.
